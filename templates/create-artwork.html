@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Artwork</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Create Artwork</h1>
+</header>
+
+<main>
+<form action="/create-artwork" method="POST" enctype="multipart/form-data">
+<label for="artwork">Artwork:</label>
+<input type="file" name="artwork" id="artwork">
+
+<label for="metadata">Metadata:</label>
+<textarea name="metadata" id="metadata"></textarea>
+
+<input type="submit" value="Create Artwork">
+</form>
+</main>
+
+</body>
+</html>
+
+
