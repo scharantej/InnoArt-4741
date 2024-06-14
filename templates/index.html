@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Generative Artist Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Generative Artist Platform</h1>
+</header>
+
+<main>
+<p>Welcome to the Generative Artist Platform! Here, you can create, explore, and collaborate on generative artworks.</p>
+
+<section id="create-artwork">
+<h2>Create Artwork</h2>
+<form action="/create-artwork" method="POST" enctype="multipart/form-data">
+<label for="artwork">Artwork:</label>
+<input type="file" name="artwork" id="artwork">
+
+<label for="metadata">Metadata:</label>
+<textarea name="metadata" id="metadata"></textarea>
+
+<input type="submit" value="Create Artwork">
+</form>
+</section>
+
+<section id="explore-artworks">
+<h2>Explore Artworks</h2>
+<ul>
+<li>Artwork 1</li>
+<li>Artwork 2</li>
+<li>Artwork 3</li>
+</ul>
+</section>
+
+<section id="collaborate">
+<h2>Collaborate</h2>
+<a href="/collaborate">Join the collaborative space</a>
+</section>
+</main>
+
+<footer>
+<p>Copyright &copy; 2023 Generative Artist Platform</p>
+</footer>
+
+</body>
+</html>
+
+
